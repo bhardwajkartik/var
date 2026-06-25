@@ -1,3 +1,3 @@
-def call(){
-  echo"hello world"
+def call(string url,branch main){
+  git url:"{url}",branch:"{branch}"
 }
